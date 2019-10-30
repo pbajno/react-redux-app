@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://raw.githack.com/dwyl/repo-badges/master/svg/coverage-100.svg)
+
+# React redux app
+
+Simple app for testing functionalities of react, redux (with used hooks), jest (for testing coverage) and enzyme (for components testing). This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
