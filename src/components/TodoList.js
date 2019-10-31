@@ -4,7 +4,6 @@ import { toggleTodoAction, deleteTodoAction } from '../redux';
 
 export default () => {
   const todos = useSelector((state) => state.todos);
-  console.log(todos);
   const dispatch = useDispatch();
 
   const toggleTodo = (todoId, e) => {
@@ -15,7 +14,7 @@ export default () => {
   return (
     <div className="row">
       <div className="col-3">
-        <div class="task-group">
+        <div className="task-group">
           {todos.map((todo) => (
             <div key={todo.id} className="form-check">
                 <input onChange={(e) => toggleTodo(todo.id, e)} type="checkbox" className="form-check-input" id={'todoId' + todo.id} />

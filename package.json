@@ -38,12 +38,16 @@
   "devDependencies": {
     "babel-plugin-syntax-class-properties": "^6.13.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "enzyme-to-json": "^3.4.3",
     "expect": "^24.9.0",
     "jest": "^24.9.0",
-    "react-addons-test-utils": "^15.6.2"
+    "jest-cli": "^24.9.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.11.0"
   },
   "jest": {
     "snapshotSerializers": [
